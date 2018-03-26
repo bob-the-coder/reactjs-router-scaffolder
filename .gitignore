@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ReactRouteBackbone/bin/Debug
+/ReactRouteBackbone/obj/Debug
+/.vs/ReactRouteBackbone/v14

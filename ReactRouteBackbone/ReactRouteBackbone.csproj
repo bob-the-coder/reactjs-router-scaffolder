@@ -46,7 +46,6 @@
     <Compile Include="BaseComponent.cs" />
     <Compile Include="Component.cs" />
     <Compile Include="Hub.cs" />
-    <Compile Include="IComponent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

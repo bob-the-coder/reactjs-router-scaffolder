@@ -2,7 +2,7 @@
 
 namespace ReactRouteBackbone
 {
-    internal class Component : BaseComponent, IComponent
+    internal class Component : BaseComponent
     {
         internal Component(string name) : base(name) { }
 

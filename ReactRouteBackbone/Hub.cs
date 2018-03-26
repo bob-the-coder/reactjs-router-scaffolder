@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace ReactRouteBackbone
 {
-    internal class Hub : BaseComponent, IComponent
+    internal class Hub : BaseComponent
     {
         internal IList<Component> Components { get; } = new List<Component>();
         internal IList<Hub> Hubs { get; } = new List<Hub>();

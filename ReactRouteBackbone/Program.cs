@@ -10,12 +10,12 @@
             );
 
             var companyManageHub = new Hub(
-                "manage", 
-                "activities, documents, details, settings, delegations, integrations, restDocs, account, users, contacts"
+                "manage:param1:param2", 
+                "activities, documents:param3, details:param4, settings, delegations, integrations, restDocs, account, users, contacts"
                 );
 
             var companiesHub = new Hub(
-                "companies", 
+                "companies:param0", 
                 "index, activities, externalRegistry, connectorUpdates, automatches, agreementCustomers",
                 companyManageHub
                 );
